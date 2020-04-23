@@ -102,7 +102,7 @@ class Play extends Phaser.Scene {
 
 
     update(){
-        this.starfield.tilePositionX -= 4;
+        this.starfield.tilePositionX -= 2;
         this.planet.x += 0.25;
         this.timer.text = ((this.totalTime - this.clock.elapsed)/1000).toFixed(0);
 
